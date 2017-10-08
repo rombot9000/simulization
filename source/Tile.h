@@ -17,7 +17,7 @@ public:
     std::list<Object*> listOfObjects;
 protected:
     std::map<groundType, double> mapGroundComposition;
-    mapResourceTypeToDouble mapResourceTypeToAmount;
+    mapResourceTypeToDouble mapOfResources;
     double timeStep;
 private:
 };

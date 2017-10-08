@@ -6,7 +6,11 @@ Tile::Tile(double timeStep)
 
 void Tile::iterate(double timeStep)
 {
-    printf("Iterating Tile");
+    printf("Iterating Tile\n");
+    for(const auto &object : this->listOfObjects)
+    {
+        object->iterate(timeStep, this->mapOfResources);
+    }
 }
 
 void Tile::addObject(Object &objectToAdd)

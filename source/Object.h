@@ -7,5 +7,5 @@ class Object
 public:
     void iterate(double timeStep, mapResourceTypeToDouble mapOfResources);
 protected:
-    mapResourceTypeToDouble m_mapOfResourceIntake;
+    mapResourceTypeToDouble mapResourcesToIntake;
 };

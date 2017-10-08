@@ -5,5 +5,6 @@
 class Plant : public Object
 {
 public:
+    Plant();
 private:
 };

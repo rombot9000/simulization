@@ -3,11 +3,11 @@
 
 enum class groundType
 {
-    rock,
-    soil,
-    water
+    Rock,
+    Soil,
+    Water
 };
 
-enum class resourceType {water};
+enum class resourceType {Water};
 
 typedef std::map<resourceType, double> mapResourceTypeToDouble;
