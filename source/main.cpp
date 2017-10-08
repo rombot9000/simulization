@@ -1,7 +1,17 @@
 #include "Config.h"
-//#include tile.h
+#include "Tile.h"
+#include "Plant.h"
 
 int main(int argc, char const *argv[])
 {
-  return 0;
+    Tile tile;
+    Plant plant;
+    tile.addObject(plant);
+    do
+    {
+        tile.iterate();
+    }
+    while(getchar() != '0');
+
+    return 0;
 }

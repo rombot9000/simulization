@@ -27,6 +27,8 @@
 *.lib
 
 # Executables
+bin/*
+include/*
 *.exe
 *.out
 *.app
