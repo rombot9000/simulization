@@ -1,0 +1,2 @@
+#define Simulization_VERSION_MAJOR @Simulization_VERSION_MAJOR@
+#define Simulization_VERSION_MINOR @Simulization_VERSION_MINOR@
